@@ -1,0 +1,9 @@
+$(function(){
+    $("#zhu").mouseover(function(){
+        $(this).css("color","#C5A059");
+        $(".active").css({"color":"white"});
+    }).mouseout(function(){
+        $(this).css("color","white");
+        $(".active").css({"color":"#C5A059"});
+    })
+})
